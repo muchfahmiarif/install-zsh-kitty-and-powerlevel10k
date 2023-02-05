@@ -1,6 +1,11 @@
-# Instruction install my best terminal
+# Instruction Install My Best Terminal
 
 The operating system I use is Ubuntu 20.04.1 LTS
+
+List of this readme:
+- [Install zsh](#install-zsh)
+- [Install kitty](#install-kitty)
+- [Install powerlevel10k](#install-powerlevel10k)
 
 ## Install zsh[^zsh]
 [^zsh]: Zsh, also known as the Z shell, extends functionality of the Bourne Shell (sh), offering newer features and more support for plugins and themes
