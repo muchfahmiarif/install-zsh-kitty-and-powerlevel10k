@@ -3,11 +3,11 @@
 The operating system I use is Ubuntu 20.04.1 LTS
 
 List of this readme:
-- [Install zsh](#install-zsh)
-- [Install kitty](#install-kitty)
-- [Install powerlevel10k](#install-powerlevel10k)
+- [Install zsh](#install-zsh1)
+- [Install kitty](#install-kitty2)
+- [Install powerlevel10k](#install-powerlevel10k4)
 
-## Install zsh[^zsh]
+## Install zsh [^zsh]
 [^zsh]: Zsh, also known as the Z shell, extends functionality of the Bourne Shell (sh), offering newer features and more support for plugins and themes
 1. Type in your terminal `sudo apt install zsh`
 2. Then type `chsh -s $(which zsh)` or `chsh -s /usr/bin/zsh` to change the default shell to zsh
