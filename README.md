@@ -7,9 +7,11 @@ List of this readme:
 - [Install kitty](#install-kitty2)
 - [Install powerlevel10k](#install-powerlevel10k4)
 
-If you want delete all of these, follow this [instruction](
+If you want delete all of these, follow this [instruction](#uninstall-all-of-these)
 
-## Install zsh [^zsh]
+If you want kitty as default terminal, follow this [instruction](#kitty-as-default-terminal)
+
+## Install zsh[^zsh]
 [^zsh]: Zsh, also known as the Z shell, extends functionality of the Bourne Shell (sh), offering newer features and more support for plugins and themes
 1. Type in your terminal `sudo apt install zsh`
 2. Then type `chsh -s $(which zsh)` or `chsh -s /usr/bin/zsh` to change the default shell to zsh
@@ -43,6 +45,15 @@ type `cp ~/.local/kitty.app/share/applications/kitty.desktop /usr/share/applicat
 5. You will see setup of powerlevel10k like this ![powerlevel10k](https://cdn.statically.io/img/i.ibb.co/Jq7nFdQ/2023-02-05-09-21.png)
 Follow the instruction until finish setup
 6. Finally its done! :tada:
+
+---
+
+# Kitty as default terminal
+1. Type `sudo apt install kitty -y`
+2. Type `sudo update-alternatives --config x-terminal-emulator`
+and you will see table like this ![kitty](https://cdn.statically.io/img/i.ibb.co/j5fbyGc/2023-02-05-11-28.png)
+3. Choose `kitty` by typing `2` and then press `Enter`
+4. finally its done! :tada:
 
 ---
 
